@@ -240,14 +240,19 @@ footer{
 
     section h2{
         font-size:27px;
-    }
-
+}
     .menu-box{
         width:92%;
     }
 
 }
+section{
+display:none;
+}
 
+#home{
+display:flex;
+}
 </style>
 </head>
 
@@ -270,9 +275,7 @@ footer{
 <div class="menu-box" id="uniqueMenu">
 
 <a href="#home" onclick="closeMenu()">🏠 Home</a>
-
-<a href="#about" onclick="closeMenu()">👤 About Me</a>
-
+<a href="javascript:showSection('about')">👤 About Me</a>
 <a href="#student" onclick="closeMenu()">🎓 Student</a>
 
 <a href="#hobby" onclick="closeMenu()">💻 My Hobby</a>
@@ -645,7 +648,14 @@ document.getElementById("result").innerText =
 riskAmount.toFixed(2);
 
 }
+function showSection(id){
+    document.querySelectorAll("section").forEach(function(s){
+        s.style.display="none";
+    });
 
+    document.getElementById(id).style.display="block";
+    window.scrollTo(0,0);
+}
 </script>
 
 </body>
