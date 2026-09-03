@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AHADXYZ | Official Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: #0f172a;
+            color: white;
+        }
+
+        /* HEADER */
+        header {
+            background: #111827;
+            padding: 20px 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        /* MENU */
+        nav {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        nav a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px;
+            transition: color 1s ease;
+        }
+
+        nav.green a {
+            color: #00ff55;
+        }
+
+        /* ALL SECTIONS */
+        section {
+            padding: 80px 20px;
+            text-align: center;
+            min-height: 50vh;
+        }
+
+        section h2 {
+            font-size: 32px;
+            margin-bottom: 25px;
+        }
+
+        section p {
+            max-width: 700px;
+            margin: auto;
+            color: #cbd5e1;
+            line-height: 1.8;
+            font-size: 17px;
+        }
+
+        /* HOME */
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+        }
+
+        .hero span {
+            color: #38bdf8;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 13px 25px;
+            background: #38bdf8;
+            color: #0f172a;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        /* CARDS */
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .card {
+            width: 280px;
+            padding: 25px;
+            background: #1e293b;
+            border-radius: 12px;
+        }
+
+        .card h3 {
+            margin-bottom: 15px;
+        }
+
+        /* CALCULATOR */
+        .calculator {
+            max-width: 400px;
+            margin: auto;
+            background: #1e293b;
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 6px;
+        }
+
+        button {
+            padding: 12px 20px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 6px;
+            background: #38bdf8;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #result {
+            margin-top: 15px;
+            font-size: 18px;
+            color: #00ff55;
+        }
+
+        /* CONTACT */
+        .contact {
+            background: #111827;
+        }
+
+        .contact a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        /* FOOTER */
+        footer {
+            padding: 25px;
+            text-align: center;
+            background: #020617;
+            color: #94a3b8;
+        }
+
+        /* MOBILE */
+        @media (max-width: 600px) {
+
+            header h1 {
+                font-size: 27px;
+            }
+
+            nav {
+                gap: 2px;
+            }
+
+            nav a {
+                font-size: 13px;
+                padding: 6px;
+            }
+
+            .hero h2 {
+                font-size: 35px;
+            }
+
+            section h2 {
+                font-size: 27px;
+            }
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <h1>AHADXYZ</h1>
+
+        <nav id="mainMenu">
+
+            <a href="#home">🏠 Home</a>
+
+            <a href="#about">👤 About Me</a>
+
+            <a href="#journey">📈 Trading Journey</a>
+
+            <a href="#rules">🧠 Trading Rules</a>
+
+            <a href="#calculator">📊 Trading Calculator</a>
+
+            <a href="#journal">📝 Trading Journal</a>
+
+            <a href="#social">🔗 Social Media</a>
+
+            <a href="#contact">📧 Contact Me</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- HOME -->
+    <section class="hero" id="home">
+
+        <div>
+
+            <h2>
+                Welcome to <span>AHADXYZ</span> 🚀
+            </h2>
+
+            <p>
+                My Personal Website & Trading Journey
+            </p>
+
+            <a href="#about" class="btn">
+                Explore My Website
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about">
+
+        <h2>👤 About Me</h2>
+
+        <p>
+
+            Hi, I'm <b>Ahad</b>. 👋
+
+            <br><br>
+
+            I'm 24 years old and I'm from
+            <b>Dhaka, Bangladesh</b> 🇧🇩.
+
+            <br><br>
+
+            I'm a trader with a strong interest
+            in the financial markets.
+
+            <br><br>
+
+            Trading is not just about making profits
+            for me. It's about discipline, patience,
+            learning and continuous improvement.
+
+            <br><br>
+
+            📈 <b>My Goal:</b>
+
+            <br>
+
+            To become a more skilled, disciplined
+            and successful trader every day.
+
+        </p>
+
+    </section>
+
+
+    <!-- TRADING JOURNEY -->
+    <section id="journey">
+
+        <h2>📈 Trading Journey</h2>
+
+        <p>
+
+            My trading journey is about learning,
+            practicing and improving every day.
+
+            <br><br>
+
+            I want to understand the market better,
+            manage risk properly and become a
+            disciplined trader.
+
+            <br><br>
+
+            Every trade is a lesson.
+            Every mistake is an experience.
+
+        </p>
+
+    </section>
+
+
+    <!-- TRADING RULES -->
+    <section id="rules">
+
+        <h2>🧠 Trading Rules</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🛑 Stop Loss</h3>
+                <p>
+                    Always use proper risk management
+                    and protect your capital.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🎯 Patience</h3>
+                <p>
+                    Wait for a good setup instead of
+                    entering trades emotionally.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🧘 Discipline</h3>
+                <p>
+                    Follow the trading plan and avoid
+                    unnecessary trades.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CALCULATOR -->
+    <section id="calculator">
+
+        <h2>📊 Trading Calculator</h2>
+
+        <div class="calculator">
+
+            <input
+                type="number"
+                id="capital"
+                placeholder="Account Capital"
+            >
+
+            <input
+                type="number"
+                id="risk"
+                placeholder="Risk %"
+            >
+
+            <button onclick="calculateRisk()">
+                Calculate Risk
+            </button>
+
+            <div id="result"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TRADING JOURNAL -->
+    <section id="journal">
+
+        <h2>📝 Trading Journal</h2>
+
+        <p>
+
+            Keep track of your trades,
+            mistakes, strategies and lessons.
+
+            <br><br>
+
+            A good trading journal can help you
+            understand your performance and improve
+            your trading discipline.
+
+        </p>
+
+    </section>
+
+
+    <!-- SOCIAL MEDIA -->
+    <section id="social">
+
+        <h2>🔗 Social Media</h2>
+
+        <p>
+
+            🎵 TikTok:
+            <br>
+
+            <a
+                href="https://www.tiktok.com/@loveloybab"
+                target="_blank"
+            >
+                @loveloybab
+            </a>
+
+        </p>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+
+        <h2>📧 Contact Me</h2>
+
+        <p>
+
+            Want to get in touch with me?
+
+            <br><br>
+
+            📧 Email:
+
+            <br>
+
+            <a href="mailto:ahadunmd2@gmail.com">
+                ahadunmd2@gmail.com
+            </a>
+
+            <br><br>
+
+            🎵 TikTok:
+
+            <br>
+
+            <a
+                href="https://www.tiktok.com/@loveloybab"
+                target="_blank"
+            >
+                @loveloybab
+            </a>
+
+        </p>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        © 2026 AHADXYZ.
+        All Rights Reserved. 🚀
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script>
+
+        /* MENU RED / GREEN EVERY 30 SECONDS */
+
+        const menu = document.getElementById("mainMenu");
+
+        setInterval(function () {
+
+            menu.classList.toggle("green");
+
+        }, 30000);
+
+
+        /* TRADING RISK CALCULATOR */
+
+        function calculateRisk() {
+
+            const capital =
+                Number(document.getElementById("capital").value);
+
+            const risk =
+                Number(document.getElementById("risk").value);
+
+            if (capital <= 0 || risk <= 0) {
+
+                document.getElementById("result").innerText =
+                    "Please enter valid numbers.";
+
+                return;
+            }
+
+            const riskAmount =
+                capital * risk / 100;
+
+            document.getElementById("result").innerText =
+                "Risk Amount: $" + riskAmount.toFixed(2);
+
+        }
+
+    </script>
+
+</body>
+
+</html>
